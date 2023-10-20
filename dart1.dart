@@ -55,3 +55,42 @@ void main() {
   print("Kişi sayisi: $kisiSayisi");
   print("Kişi başina düşen tutar: $kisiBasinaDusenTutar");
 }
+
+
+//Write a dart program to check if the number is odd or even.
+
+void main() {
+  var number = 20;
+  if (number % 2 == 0) {
+    print("$number çift");
+  } else {
+    print("$number tektir");
+  }
+}
+
+
+
+//Write a dart program to check whether a character is a vowel or consonant.
+
+void main() {
+  String ch = 'a';
+  if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+    print("$ch is a vowel.");
+  } else {
+    print("$ch is a consonant.");
+  }
+}
+
+
+//Write a dart program to check whether a number is positive, negative, or zero.
+
+void main() {
+  int num = 0;
+  if (num > 0) {
+    print("$num pozitiftir.");
+  } else if (num < 0) {
+    print("$num negatiftir.");
+  } else {
+    print("Sayi sifirdir.");
+  }
+}
