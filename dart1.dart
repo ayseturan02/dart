@@ -139,7 +139,57 @@ void main() {
 }
 
 
+//Write a dart program to generate multiplication tables of 1-9.
 
+void main() {
+  int n = 9;
+  int carpim = 1;
+
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= n; j++) {
+      carpim = i * j;
+      print("$i*$j=$carpim ");
+    }
+    print("\n");
+  }
+}
+
+//Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
+
+
+void main() {
+  double num1 = 10.0;
+  double num2 = 5.0;
+  String operation = '+';
+
+  switch (operation) {
+    case '+':
+      print('${num1 + num2}');
+      break;
+    case '-':
+      print('${num1 - num2}');
+      break;
+    case '*':
+      print('${num1 * num2}');
+      break;
+    case '/':
+      print('${num1 / num2}');
+      break;
+    default:
+      print('Geçersiz işlem.');
+  }
+}
+
+
+//Write a dart program to print 1 to 100 but not 41.
+
+void main() {
+  for (int i = 1; i <= 100; i++) {
+    if (i != 41) {
+      print(i);
+    }
+  }
+}
 
 
 
