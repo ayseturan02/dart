@@ -94,3 +94,67 @@ void main() {
     print("Sayi sifirdir.");
   }
 }
+
+
+
+//Write a dart program to print your name 100 times.
+
+void main() {
+  int i = 1;
+  do {
+    print("ayseturan");
+    i++;
+  } while (i <= 100);
+}
+
+
+
+//Write a dart program to calculate the sum of natural numbers.
+
+void main() {
+  int n = 10;
+  int sum = 0;
+  for (int i = 1; i <= n; i++) {
+    sum += i;
+  }
+  print("Toplam: $sum");
+}
+
+
+
+
+//Write a dart program to generate multiplication tables of 5.
+
+void main() {
+  int n = 5;
+  int carpim = 1;
+
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= n; j++) {
+      carpim = i * j;
+      print("$i*$j=$carpim ");
+    }
+    print("\n");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
